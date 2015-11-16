@@ -1,13 +1,7 @@
-(function() {
+angular
+  .module('$moduleName$')
+  .config($configName$);
 
-  'use strict';
-
-  angular
-    .module('$moduleName$')
-    .config($configName$);
-
-  function $configName$($injectables$) {
-    $END$
-  }
-
-})();
+function $configName$($injectables$) {
+  $END$
+}
